@@ -8,8 +8,9 @@
 * Error is a serious problem caused by the system or JVM and usually cannot be handled. 
 &nbsp;  Example: Stack overflow error.
 
-Object class (main class)--> Throwable class (handles all errors and exceptions) -->  Error & Exception classes.
-Exception: Checked & Unchecked Exceptions
+**Object class** (main class)--> **Throwable class** (handles all errors and exceptions) -->  **Error & Exception classes**.
+
+Exception: **Checked & Unchecked Exceptions**
 
 **Checked Exception:** if you get an exception during compile-time, it will be a checked exception.
 **Unchecked Exception:** if you get an exception during run-time, it will be an unchecked exception.
@@ -40,6 +41,7 @@ Some keywords related to exception handling in Java:
 \# The finally block is optional and there can only be one finally block.
 
 \# You can also create your own exceptions by creating a class that extends Exception class.
+
 
 
 
